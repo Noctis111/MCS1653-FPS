@@ -360,7 +360,7 @@
 "Assets/Materials/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs"
 "Assets/Materials/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
 "Assets/Materials/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
-"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/GameOverManager.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/Ignore/BoostPad_MLab_Uncommented.cs"
 "Assets/Scripts/Ignore/MoveCamera.cs"
@@ -379,6 +379,7 @@
 "Assets/Scripts/PlayerCam.cs"
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/PlayerMovementAdvanced.cs"
+"Assets/Scripts/VictoryTrigger.cs"
 "Assets/Scripts/WallRunningAdvanced.cs"
 -langversion:9.0
 /deterministic
