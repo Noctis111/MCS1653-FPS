@@ -12,9 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Playground.unity
     guid: b7a5d85f325b3a746accc679437abd37
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 36318cf30392aac4bb1468e92c10f881
+  - enabled: 1
     path: Assets/Scenes/L1.unity
     guid: 5b613dfd40e90254794b56000f1a13ac
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: 36318cf30392aac4bb1468e92c10f881
+    path: Assets/Scenes/L2.unity
+    guid: fcd8855e89b667f4e8b114885ff88e19
+  - enabled: 1
+    path: Assets/Scenes/L3.unity
+    guid: fd6964347d9b34848b8525969966d91e
+  - enabled: 1
+    path: Assets/Scenes/Boss.unity
+    guid: 345c698f3b4072a478c802f7f7afa3ab
   m_configObjects: {}

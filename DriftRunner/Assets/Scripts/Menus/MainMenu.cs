@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
    public void OnPlayButton ()
     {
-        SceneManager.LoadScene("Tutorial");
+        SceneManager.LoadScene("L1");
     }
 
     public void OnPGButton()
