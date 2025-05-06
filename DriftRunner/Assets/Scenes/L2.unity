@@ -122,18 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &91987977 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1127528529037573798, guid: 6dd9615f102db91459c55baf2b369b15,
-    type: 3}
-  m_PrefabInstance: {fileID: 1575982172}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbeb9ff899020cf4bba0c367151844ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &202174195 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4204879293268335257, guid: 04206a397e922274db594a8c133eb311,
@@ -1884,11 +1872,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1045708880}
-    - target: {fileID: 4303178787981899239, guid: 6dd9615f102db91459c55baf2b369b15,
+    - target: {fileID: 3655277307941786648, guid: 6dd9615f102db91459c55baf2b369b15,
         type: 3}
-      propertyPath: cam
-      value: 
-      objectReference: {fileID: 91987977}
+      propertyPath: m_VersionIndex
+      value: 81
+      objectReference: {fileID: 0}
     - target: {fileID: 4876602023897824357, guid: 6dd9615f102db91459c55baf2b369b15,
         type: 3}
       propertyPath: m_Mesh
@@ -1899,16 +1887,31 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1045708880}
+    - target: {fileID: 7246526893384322600, guid: 6dd9615f102db91459c55baf2b369b15,
+        type: 3}
+      propertyPath: distance
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7782285315008751973, guid: 6dd9615f102db91459c55baf2b369b15,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2035617507}
+    - target: {fileID: 7782285315008751973, guid: 6dd9615f102db91459c55baf2b369b15,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 81
+      objectReference: {fileID: 0}
     - target: {fileID: 9051077451603249905, guid: 6dd9615f102db91459c55baf2b369b15,
         type: 3}
       propertyPath: gameOverPanel
       value: 
       objectReference: {fileID: 1583687522}
+    - target: {fileID: 9051077451603249905, guid: 6dd9615f102db91459c55baf2b369b15,
+        type: 3}
+      propertyPath: postProcessVolume
+      value: 
+      objectReference: {fileID: 1863720562}
     - target: {fileID: 9051077451603249905, guid: 6dd9615f102db91459c55baf2b369b15,
         type: 3}
       propertyPath: hearts.Array.data[0]
@@ -2173,6 +2176,16 @@ PrefabInstance:
       propertyPath: m_text
       value: Main Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 3587180937914824226, guid: 4133038907dfece46a2654355edc8e08,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 478491422}
+    - target: {fileID: 3587180937914824226, guid: 4133038907dfece46a2654355edc8e08,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
     - target: {fileID: 3847247750991164226, guid: 4133038907dfece46a2654355edc8e08,
         type: 3}
       propertyPath: m_Name
@@ -2233,6 +2246,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 4132786154795048409, guid: 4133038907dfece46a2654355edc8e08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922259376346755577, guid: 4133038907dfece46a2654355edc8e08,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -183
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360309249782271296, guid: 4133038907dfece46a2654355edc8e08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5372034325622559934, guid: 4133038907dfece46a2654355edc8e08,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2243,11 +2271,28 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: GoToMainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7806573839499163621, guid: 4133038907dfece46a2654355edc8e08,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4133038907dfece46a2654355edc8e08, type: 3}
+--- !u!114 &1863720562 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1692983925828986075, guid: 4133038907dfece46a2654355edc8e08,
+    type: 3}
+  m_PrefabInstance: {fileID: 1863720561}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1881820818
 PrefabInstance:
   m_ObjectHideFlags: 0

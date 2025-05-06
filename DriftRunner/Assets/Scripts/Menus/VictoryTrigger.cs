@@ -37,6 +37,12 @@ public class VictoryTrigger : MonoBehaviour
         SceneManager.LoadScene(nextSceneIndex);
     }
 
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void GoToMainMenu()
     {
         Time.timeScale = 1f;

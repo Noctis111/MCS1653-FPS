@@ -125,7 +125,9 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
     - UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
     - UnityEngine.Rendering.PostProcessing.TextureParameter
+    - UnityEngine.Rendering.PostProcessing.Vector2Parameter
     - UnityEngine.Rendering.PostProcessing.VectorscopeMonitor
+    - UnityEngine.Rendering.PostProcessing.VignetteModeParameter
     - UnityEngine.Rendering.PostProcessing.WaveformMonitor
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIPrefabBundle
@@ -171,6 +173,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: OnPGButton
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: ShowControlCredits
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: HideControlCredits
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: OnPlayButton
@@ -238,6 +246,9 @@ ScriptsOnlyBuild:
     fullTypeName: PausedMenu
     methodName: ResumeGame
   - assembly: Assembly-CSharp
+    fullTypeName: VictoryTrigger
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
     fullTypeName: GameOverManager
     methodName: OnExitButton
   - assembly: Assembly-CSharp
@@ -262,6 +273,9 @@ ScriptsOnlyBuild:
     fullTypeName: VictoryTrigger
     methodName: LoadNextLevel
   - assembly: Assembly-CSharp
+    fullTypeName: VictoryTrigger
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
     fullTypeName: GameOverManager
     methodName: OnExitButton
   - assembly: Assembly-CSharp
@@ -285,6 +299,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: VictoryTrigger
     methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: VictoryTrigger
+    methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: GameOverManager
     methodName: OnExitButton
@@ -380,6 +397,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5000}
     - Class: 114
+      Script: {instanceID: 5022}
+    - Class: 114
       Script: {instanceID: 5256}
     - Class: 114
       Script: {instanceID: 5688}
@@ -466,6 +485,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4686}
     - Class: 114
       Script: {instanceID: 5000}
+    - Class: 114
+      Script: {instanceID: 5022}
     - Class: 114
       Script: {instanceID: 5256}
     - Class: 114
@@ -578,6 +599,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5000}
     - Class: 114
+      Script: {instanceID: 5022}
+    - Class: 114
       Script: {instanceID: 5068}
     - Class: 114
       Script: {instanceID: 5256}
@@ -638,9 +661,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -669,6 +700,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5000}
     - Class: 114
+      Script: {instanceID: 5022}
+    - Class: 114
       Script: {instanceID: 5256}
     - Class: 114
       Script: {instanceID: 5688}
@@ -679,6 +712,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -755,6 +790,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4686}
     - Class: 114
       Script: {instanceID: 5000}
+    - Class: 114
+      Script: {instanceID: 5022}
     - Class: 114
       Script: {instanceID: 5256}
     - Class: 114
@@ -1024,6 +1061,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5000}
     - Class: 114
+      Script: {instanceID: 5022}
+    - Class: 114
       Script: {instanceID: 5068}
     - Class: 114
       Script: {instanceID: 5256}
@@ -1264,7 +1303,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerProgressBar
   - hash:
       serializedVersion: 2
-      Hash: fe4c75203a9743390fe41454f7d841d0
+      Hash: aa0ae63f0fd971c3efe27735b24376ef
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MainMenu
@@ -1912,7 +1951,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: de7fe09ed4bf9bee9eb5cf286ba1c2a6
+      Hash: 8590945c132fbf8e40e469b96173343c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerHealth
@@ -2051,4 +2090,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/L2.unity
   - Assets/Scenes/L3.unity
   - Assets/Scenes/Boss.unity
-  playerPath: C:/Users/alain/Downloads/DriftRunner/Ultimate Game (Unity Project).exe
+  playerPath: C:/Users/alain/Downloads/DriftRunner/DriftRunner.exe

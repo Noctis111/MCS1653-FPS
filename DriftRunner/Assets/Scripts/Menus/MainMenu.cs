@@ -5,7 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-   public void OnPlayButton ()
+    [Header("UI Panels")]
+    public GameObject controlCreditsPanel;
+
+    void Start()
+    {
+        controlCreditsPanel.SetActive(false);  // Ensure panel is hidden on load
+    }
+
+    public void OnPlayButton()
     {
         SceneManager.LoadScene("L1");
     }
@@ -15,8 +23,19 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Playground");
     }
 
-    public void OnExitButton ()
+    public void OnExitButton()
     {
         Application.Quit();
     }
+
+    public void ShowControlCredits()
+    {
+        controlCreditsPanel.SetActive(true);
+    }
+
+    public void HideControlCredits()
+    {
+        controlCreditsPanel.SetActive(false);
+    }
 }
+

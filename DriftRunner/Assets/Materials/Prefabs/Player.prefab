@@ -247,7 +247,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 72
+  m_VersionIndex: 81
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -389,6 +389,7 @@ MonoBehaviour:
   fullHeart: {fileID: 21300000, guid: 927af6291e659f64880f77229a0a7759, type: 3}
   emptyHeart: {fileID: 21300000, guid: 1b8453de19e5c64439fd2515a78bf532, type: 3}
   gameOverPanel: {fileID: 0}
+  postProcessVolume: {fileID: 0}
 --- !u!114 &4303178787981899239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,8 +423,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   maxSlopeAngle: 40
-  cam: {fileID: 0}
-  airSpeedDecayRate: 0.5
+  cam: {fileID: 1127528529037573798}
+  airSpeedDecayRate: 0.1
   orientation: {fileID: 7338369019027734670}
   state: 1
   freeze: 0
@@ -2475,7 +2476,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 72
+  m_VersionIndex: 81
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
