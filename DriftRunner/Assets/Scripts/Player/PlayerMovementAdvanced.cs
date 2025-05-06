@@ -51,7 +51,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
     //public float grappleFov = 90f;
 
     [Header("Air Settings")]
-    public float airSpeedDecayRate = 2f; // units per second
+    public float airSpeedDecayRate = 0.1f;
     private float airSpeed;
 
     public Transform orientation;

@@ -10,56 +10,58 @@
 ---
 
 # Required ReadMe Info for ALL MCS1653 Projects
-* **Project**   - 
-* **Your Name** - 
-* **Date**      - 
+* **Project**   - DriftRunner
+* **Your Name** - Alain Dauphin
+* **Date**      - 5/5/25
 
 <br>
 
 1. **What are the controls to your game? How do we play?**
-
-
+WASD - Move
+Spacebar - Jump
+Left Click - Shoot
+Right Click - Grapple
 
 <br>
 
 2. **What creative additions did you make? How can we find them?**
-
-
+While I'm not sure how to exactly answer "creative additions", the main keypoints of this game is its movement. My strongest focus was making the player feel as floaty as possible, while also grounding the player in realistic movement (such as momentum or 'speed' decay in air decreases when you start to fall). 
 
 <br>
 
 3. **Any assets used that you didn't create yourself?** <br> (art, music, etc. Just tell us where you got it, link it here)
-
-
+Hearts - https://fliflifly.itch.io/hearts-and-health-bar?download
+Music - https://www.gamedevmarket.net/asset/action-game-music-pack-free
 
 <br>
 
 4. **Did you receive help from anyone outside this class?** <br> (list their names and what they helped with)
-
-
+I received no outside help
 
 <br>
 
 5. **Did you get help from any AI Code Assistants?** <br> (Tell us which .cs file to look in for the citation and describe what you learned)
-
-
+The main assistance I received from AI was solving any bugs that I had. I wanted to be able to naturally write as much code as I could, with AI guiding me on how to properly structure my code and reduce the amount of time I had to spend on solving any bugs. Because of that I learned a good deal of how to make classes and how to interact with Unity and it's editor from scripting.
 
 <br>
 
 6. **Did you get help from any online websites, videos, or tutorials?** <br> (link them here)
-
+Scripts inspired by - Dave Game Development (https://www.youtube.com/playlist?list=PLh9SS5jRVLAleXEcDTWxBF39UjyrFc6Nb)
 
 
 <br>
 
 7. **What trouble did you have with this project?**
-
+Since I'm more familiar with creating FPS games, I didn't have much struggle. However a lot of my time had gone into tweaking the movement's scripts from Dave Game Development. I used his code as a basis for what I needed, but there were more pieces I had to add myself such as the airspeed. 
 
 
 <br>
 
 8. **Is there anything else we should know?**
-
+Some stuff I didn't know where to include in the game:
+The red dots will damage you if you past them, shoot them to destroy
+If you shoot the red glowing platforms, they will turn yellow and allow you to bounce on them
+Land on green platform to win the level
 
 
 

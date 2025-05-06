@@ -1,497 +1,474 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1746498724268079, "dur":83, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498724268957, "dur":278, "ph":"X", "name": "EmitBuildStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498724268222, "dur":6138, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498724274382, "dur":287, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498724274772, "dur":935, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498724275875, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level0" }}
-,{ "pid":12345, "tid":0, "ts":1746498724276013, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level1" }}
-,{ "pid":12345, "tid":0, "ts":1746498724276291, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level4.resS" }}
-,{ "pid":12345, "tid":0, "ts":1746498724276432, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level6" }}
-,{ "pid":12345, "tid":0, "ts":1746498724278208, "dur":555, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724278809, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724278875, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724279094, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724279181, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724279468, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724279525, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724279580, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724280028, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724280738, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724280855, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724280964, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724281044, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724281162, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724281343, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724281525, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":0, "ts":1746498724275754, "dur":7297, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498724283053, "dur":2015735, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498726298790, "dur":331, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498726299148, "dur":293, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498726299701, "dur":4127, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1746498724275966, "dur":7113, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724283104, "dur":1424, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724284528, "dur":8693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724293222, "dur":1762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1746498724294985, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724301933, "dur":15001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1746498724317027, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":1, "ts":1746498724317024, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1746498724317207, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724317788, "dur":91812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1746498724409744, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724433862, "dur":279, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724409870, "dur":24292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1746498724434551, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724434742, "dur":6622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1746498724441421, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724441544, "dur":16849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1746498724458455, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724458547, "dur":19103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1746498724506418, "dur":299, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1746498724477791, "dur":28943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level4.resS" }}
-,{ "pid":12345, "tid":1, "ts":1746498724506793, "dur":1792211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1746498724275920, "dur":7151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1746498724283080, "dur":9574, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1746498724292704, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1746498724292850, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1746498724293036, "dur":2152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1746498724295190, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1746498724295773, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724295987, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724296160, "dur":1274, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724297436, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724297721, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724297848, "dur":527, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724298377, "dur":374, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724298753, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724298879, "dur":409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724299291, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724299406, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Poly2Tri.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724299521, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.KdTree.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724299633, "dur":451, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1746498724292848, "dur":7423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1746498724301035, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1746498724303378, "dur":1973140, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1746498726284342, "dur":12398, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1746498726284340, "dur":12403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1746498726296869, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1746498724276070, "dur":7070, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724283146, "dur":1317, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724284463, "dur":8785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724293260, "dur":2038, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1746498724293249, "dur":2051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1746498724295301, "dur":517, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724295830, "dur":75, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724303908, "dur":24400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1746498724328392, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1746498724331493, "dur":43876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1746498724375578, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724375953, "dur":8714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1746498724384725, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724384849, "dur":23773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1746498724408714, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724433908, "dur":425, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724409044, "dur":25302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1746498724434476, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724434580, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724434642, "dur":7943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1746498724442654, "dur":836, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724443544, "dur":16737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1746498724460338, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1746498724460335, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1746498724460478, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1746498724460567, "dur":71735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1746498724532357, "dur":1766660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724276039, "dur":7055, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724283449, "dur":607, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
-,{ "pid":12345, "tid":4, "ts":1746498724283106, "dur":2330, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724285436, "dur":7871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724293307, "dur":2678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1746498724295986, "dur":1255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724297255, "dur":330, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724305582, "dur":25544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1746498724331259, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724331343, "dur":210, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724339126, "dur":20309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1746498724359521, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724398712, "dur":189, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724359807, "dur":39200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1746498724399124, "dur":519, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724399694, "dur":12008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1746498724411766, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724411871, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724411926, "dur":24971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1746498724437012, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724437307, "dur":122, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724437435, "dur":12093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1746498724449606, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1746498724449753, "dur":15169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1746498724465006, "dur":16463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1746498724481544, "dur":25315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1746498724506903, "dur":1791913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1746498724276816, "dur":7803, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1746498724284620, "dur":8537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1746498724293158, "dur":968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1746498724294189, "dur":126, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1746498724329796, "dur":754, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1746498724305186, "dur":25385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1746498724330849, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1746498724330847, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1746498724330989, "dur":628, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1746498724339080, "dur":111947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1746498724454046, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1746498724470961, "dur":1063, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1746498724454181, "dur":18054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1746498724472421, "dur":26997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level6.resS" }}
-,{ "pid":12345, "tid":5, "ts":1746498724499487, "dur":3562, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1746498724503058, "dur":16043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1746498724519166, "dur":1779632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724276322, "dur":7153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724283598, "dur":698, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1746498724284808, "dur":658, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1746498724283486, "dur":2530, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724286016, "dur":7322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724293338, "dur":3010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1746498724296349, "dur":890, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724330180, "dur":455, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724307353, "dur":23317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1746498724330791, "dur":715, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724339030, "dur":12722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":6, "ts":1746498724351859, "dur":1587, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724353461, "dur":115, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724353583, "dur":9998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":6, "ts":1746498724363706, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724364120, "dur":62406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1746498724426669, "dur":619, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724438450, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724427326, "dur":11237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1746498724438652, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724438773, "dur":10156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1746498724448998, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1746498724449173, "dur":11053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1746498724460442, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":6, "ts":1746498724462992, "dur":4223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":6, "ts":1746498724467284, "dur":12327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1746498724479739, "dur":18959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level3.resS" }}
-,{ "pid":12345, "tid":6, "ts":1746498724498795, "dur":11128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1746498724510036, "dur":1788778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724276391, "dur":7581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724283981, "dur":1086, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724285068, "dur":7605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724292701, "dur":302, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1746498724292683, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1746498724333756, "dur":2169, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724302885, "dur":33068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1746498724336315, "dur":1493, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724354749, "dur":178, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724340280, "dur":14754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1746498724355124, "dur":1686, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724356865, "dur":50551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":7, "ts":1746498724407554, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724432977, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724407708, "dur":25349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1746498724433164, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724433276, "dur":7363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1746498724440769, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724440991, "dur":12919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1746498724453988, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724454115, "dur":11490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1746498724465709, "dur":12373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":7, "ts":1746498724506524, "dur":308, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1746498724478196, "dur":28649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level4" }}
-,{ "pid":12345, "tid":7, "ts":1746498724506895, "dur":1792100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724276450, "dur":7614, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724284073, "dur":2073, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724286147, "dur":7132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724293282, "dur":2337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1746498724295620, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724330031, "dur":416, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724304570, "dur":25895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1746498724330546, "dur":777, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724406611, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724338102, "dur":68614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1746498724406937, "dur":766, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724407737, "dur":24761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1746498724432605, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724432869, "dur":367, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724433242, "dur":7391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1746498724440693, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724440903, "dur":10706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1746498724451682, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724451982, "dur":12555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1746498724464655, "dur":6128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":8, "ts":1746498724470845, "dur":265, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724495426, "dur":355, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1746498724471133, "dur":24671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/resources.resource" }}
-,{ "pid":12345, "tid":8, "ts":1746498724495931, "dur":22582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1746498724518608, "dur":1780200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724276536, "dur":7590, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724284133, "dur":1144, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724285278, "dur":7388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724292692, "dur":4887, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724297596, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724298000, "dur":408, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724340703, "dur":1073, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724299308, "dur":42505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/app.info" }}
-,{ "pid":12345, "tid":9, "ts":1746498724341822, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724342001, "dur":65, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724342323, "dur":9101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724351654, "dur":591, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724357468, "dur":323, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724352281, "dur":5561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724357917, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724358047, "dur":7551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724365737, "dur":901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/DOTween.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724366640, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724384012, "dur":275, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724366941, "dur":17366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/DOTween.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724384401, "dur":7641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724392094, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724392570, "dur":35359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724428018, "dur":1594, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724429650, "dur":7827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724437533, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724437711, "dur":10040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724447902, "dur":9649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724457614, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724457791, "dur":11238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1746498724469088, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1746498724469400, "dur":12935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1746498724482409, "dur":21728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level1.resS" }}
-,{ "pid":12345, "tid":9, "ts":1746498724504193, "dur":1794591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724276620, "dur":7790, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724284417, "dur":892, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724285310, "dur":7979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724293301, "dur":2571, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1746498724293290, "dur":2585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1746498724295875, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724304057, "dur":18022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1746498724322135, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1746498724322396, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724322458, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724322851, "dur":38825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1746498724361770, "dur":2001, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724367594, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724363798, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724374196, "dur":406, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724368015, "dur":6612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724374766, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724374851, "dur":3774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724378687, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724379068, "dur":7691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724386822, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724386910, "dur":14914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724401953, "dur":1066, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724403070, "dur":2829, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724405906, "dur":25482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724431452, "dur":455, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724438010, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724431942, "dur":6165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724438200, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724438327, "dur":311, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724438644, "dur":8974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724447681, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724448000, "dur":10739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724458796, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724458928, "dur":11910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1746498724470903, "dur":295, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1746498724471204, "dur":64350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1746498724535611, "dur":1763179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724276682, "dur":7806, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724284489, "dur":8739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724293230, "dur":1982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1746498724295213, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724303813, "dur":17235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1746498724321245, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1746498724370921, "dur":8289, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724321479, "dur":57750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1746498724379351, "dur":2050, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724381415, "dur":625, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724382046, "dur":5184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":11, "ts":1746498724387373, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724387757, "dur":12585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1746498724400402, "dur":1721, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724402142, "dur":21066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1746498724423283, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724423397, "dur":150, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724423554, "dur":13182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1746498724436820, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724436941, "dur":8594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1746498724445606, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724446125, "dur":11863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1746498724458047, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1746498724458163, "dur":11832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1746498724470332, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":11, "ts":1746498724473059, "dur":31112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level6" }}
-,{ "pid":12345, "tid":11, "ts":1746498724504267, "dur":1794511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724276876, "dur":7768, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724284644, "dur":8385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724293030, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1746498724293784, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724325918, "dur":112, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724302894, "dur":23223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1746498724326210, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":12, "ts":1746498724326209, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner.exe" }}
-,{ "pid":12345, "tid":12, "ts":1746498724326265, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724326678, "dur":5197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner.exe" }}
-,{ "pid":12345, "tid":12, "ts":1746498724331953, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724332022, "dur":5375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724338983, "dur":6025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724345228, "dur":852, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724346123, "dur":11618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724357904, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724358044, "dur":7311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724365412, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724365793, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724379161, "dur":454, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724379629, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724379701, "dur":7233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724387021, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724403039, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724387320, "dur":15832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724403445, "dur":1522, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724405002, "dur":22000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724427097, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724427362, "dur":9763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724437249, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724437590, "dur":7961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724445633, "dur":456, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724446146, "dur":10521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724456743, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724456933, "dur":11794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1746498724468908, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1746498724469008, "dur":11235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":12, "ts":1746498724480321, "dur":24250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level3" }}
-,{ "pid":12345, "tid":12, "ts":1746498724504627, "dur":1794105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724276740, "dur":7798, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724284538, "dur":8624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724293177, "dur":3231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1746498724293163, "dur":3246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1746498724296410, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724303681, "dur":21818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1746498724325596, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":13, "ts":1746498724325594, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":13, "ts":1746498724325747, "dur":3432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724384234, "dur":322, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724330825, "dur":53748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":13, "ts":1746498724384681, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724384911, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":13, "ts":1746498724390212, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724390344, "dur":21290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1746498724411686, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724411885, "dur":6664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1746498724418726, "dur":33157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1746498724451948, "dur":510, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724462357, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724452495, "dur":9935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1746498724462584, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1746498724476131, "dur":237, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1746498724465377, "dur":11009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1746498724476560, "dur":27760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level5" }}
-,{ "pid":12345, "tid":13, "ts":1746498724504373, "dur":1794403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724276230, "dur":6935, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724283579, "dur":574, "ph":"X", "name": "File",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724283172, "dur":1461, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724284634, "dur":8516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724293171, "dur":1566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":14, "ts":1746498724293152, "dur":1587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1746498724294740, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724318670, "dur":308, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724303511, "dur":15578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1746498724319160, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1746498724338525, "dur":22029, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724319574, "dur":41013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1746498724360682, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724377298, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724360915, "dur":16490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724377591, "dur":4734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724382460, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724382956, "dur":6461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724389489, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724389614, "dur":10034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724399748, "dur":2307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724402081, "dur":7961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724410106, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724410194, "dur":25680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724435939, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724436156, "dur":6238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724442463, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724442558, "dur":11753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724454406, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724454538, "dur":10892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1746498724465569, "dur":10605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":14, "ts":1746498724492242, "dur":99, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724476266, "dur":16165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level5.resS" }}
-,{ "pid":12345, "tid":14, "ts":1746498724506284, "dur":282, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1746498724492655, "dur":13930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level0.resS" }}
-,{ "pid":12345, "tid":14, "ts":1746498724506652, "dur":1792122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724277034, "dur":7804, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724284839, "dur":7899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724292750, "dur":709, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":15, "ts":1746498724292739, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":15, "ts":1746498724294626, "dur":111, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724305529, "dur":19201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":15, "ts":1746498724324848, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724324845, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724344243, "dur":102, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724329361, "dur":15005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724344718, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724344798, "dur":97, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724344901, "dur":12260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724357240, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724357549, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724365000, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724357621, "dur":7448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724365323, "dur":708, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724366056, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724368907, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724375073, "dur":88, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724369032, "dur":6148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724375333, "dur":4569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724379965, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724380050, "dur":7474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724387584, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724387763, "dur":17384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724405208, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724405468, "dur":102, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724405576, "dur":27511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724433212, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724433427, "dur":6757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724440248, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724440378, "dur":11479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724452008, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724452490, "dur":10220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1746498724462844, "dur":4169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":15, "ts":1746498724467094, "dur":14175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1746498724481339, "dur":17719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level2.resS" }}
-,{ "pid":12345, "tid":15, "ts":1746498724509172, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1746498724499128, "dur":10123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":15, "ts":1746498724509402, "dur":1789639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724276936, "dur":7787, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724284723, "dur":8089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724292813, "dur":716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":16, "ts":1746498724318928, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724303440, "dur":15641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":16, "ts":1746498724319173, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1746498724319170, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1746498724379544, "dur":531, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724319479, "dur":60610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1746498724380157, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724380234, "dur":8092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1746498724388392, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724388502, "dur":22030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1746498724410624, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724410753, "dur":24743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1746498724435562, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724435651, "dur":65, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724435723, "dur":9328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1746498724445121, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724445319, "dur":14115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1746498724459523, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1746498724459685, "dur":11543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1746498724471306, "dur":14354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/resources.assets" }}
-,{ "pid":12345, "tid":16, "ts":1746498724485741, "dur":18294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level1" }}
-,{ "pid":12345, "tid":16, "ts":1746498724504092, "dur":1794643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1746498726310051, "dur":2702, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1746502014049815, "dur":99, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746502014049980, "dur":46528, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746502014096524, "dur":550, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746502014097199, "dur":1336, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746502014098961, "dur":239, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1746502014099389, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1746502014099494, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1746502014099611, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1746502014099717, "dur":213, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":0, "ts":1746502014099984, "dur":171, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":0, "ts":1746502014100374, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014100609, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014100684, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014100777, "dur":190, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014101021, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014101143, "dur":193, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014101559, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014101675, "dur":189, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014101961, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014102059, "dur":158, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014102240, "dur":190, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014102470, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014102609, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014102720, "dur":162, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014102936, "dur":175, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014103165, "dur":163, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014103366, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746502014104892, "dur":34597, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1746502014098587, "dur":41238, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746502014139828, "dur":6423234, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746502020563073, "dur":220, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746502020563522, "dur":3705, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1746502014098602, "dur":41294, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746502014139937, "dur":15957, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746502014155930, "dur":3520, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746502014159460, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746502014159661, "dur":17860, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1746502014177960, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014178222, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014178325, "dur":623, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014178951, "dur":286, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014179239, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014179359, "dur":499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014179860, "dur":356, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014180218, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014180333, "dur":246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014180582, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014180693, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014180841, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014180959, "dur":472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746502014159458, "dur":22155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746502014182077, "dur":68, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746502014194523, "dur":6357597, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746502020557635, "dur":2736, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746502020557633, "dur":2740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746502020560399, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1746502014098826, "dur":43622, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014142537, "dur":1231, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746502014144057, "dur":1034, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746502014142461, "dur":3067, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014145528, "dur":10376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014155925, "dur":1595, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014157533, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014160223, "dur":6299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1746502014166528, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1746502014166526, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1746502014166690, "dur":866, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014185522, "dur":88556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1746502014274140, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014274396, "dur":15047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746502014289522, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014289817, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014289878, "dur":7390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746502014297330, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014297492, "dur":11203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746502014308848, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014309076, "dur":13161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746502014322289, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014322637, "dur":19100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746502014341858, "dur":7097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1746502014349022, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014349306, "dur":8745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1746502014358101, "dur":1114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014359251, "dur":7764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level4.resS" }}
+,{ "pid":12345, "tid":2, "ts":1746502014367067, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746502014367176, "dur":9125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1746502014376346, "dur":6186305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014098730, "dur":41215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014140858, "dur":1243, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746502014139971, "dur":2265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014142237, "dur":970, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014143712, "dur":1204, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1746502014143208, "dur":2067, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014145276, "dur":10699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014155995, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1746502014155976, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1746502014157067, "dur":17901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1746502014175021, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1746502014175019, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1746502014175177, "dur":1798, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014186574, "dur":89379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1746502014276018, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014276403, "dur":14123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746502014290581, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014290912, "dur":6251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746502014297230, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014297356, "dur":10764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746502014308179, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014308462, "dur":10653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746502014319418, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746502014319621, "dur":18645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746502014338334, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746502014338331, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746502014338596, "dur":99408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746502014438069, "dur":6124429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014098785, "dur":42105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014140904, "dur":796, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014142028, "dur":569, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014142862, "dur":1245, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014141701, "dur":2616, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014144318, "dur":562, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014144880, "dur":11223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014156104, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1746502014171511, "dur":15175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1746502014186741, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014186738, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014187594, "dur":22237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014210116, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014210224, "dur":9672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014220067, "dur":2393, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014222544, "dur":13656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014236258, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014236427, "dur":40419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014276928, "dur":13170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014290161, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014290281, "dur":7904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014298239, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014298583, "dur":15107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014313788, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014314197, "dur":18676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014332992, "dur":1089, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014334093, "dur":137, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746502014334234, "dur":46830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746502014381116, "dur":6181314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014099151, "dur":45566, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014144717, "dur":12492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014157211, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1746502014157390, "dur":491, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014181774, "dur":6941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1746502014188870, "dur":10327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner.exe" }}
+,{ "pid":12345, "tid":5, "ts":1746502014199330, "dur":27976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746502014227363, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014227570, "dur":43176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746502014270823, "dur":881, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014271742, "dur":12035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746502014283829, "dur":419, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014284270, "dur":10111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746502014294451, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014294650, "dur":9604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746502014304317, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014304722, "dur":9646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746502014314481, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014314652, "dur":17262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746502014332001, "dur":538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014332594, "dur":13825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746502014346479, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014346789, "dur":8165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1746502014355011, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014355299, "dur":7156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1746502014362660, "dur":6481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1746502014369223, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746502014369390, "dur":5471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1746502014374912, "dur":6187847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746502014099190, "dur":45542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746502014144732, "dur":11923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746502014156668, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1746502014156655, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1746502014183624, "dur":7632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1746502014191363, "dur":4580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1746502014200052, "dur":10752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1746502014211180, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746502014211389, "dur":23736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746502014235814, "dur":599, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746502014236444, "dur":102507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746502014339052, "dur":4798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":6, "ts":1746502014343912, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746502014344014, "dur":4982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1746502014349333, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1746502014352672, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746502014352846, "dur":69407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1746502014422311, "dur":6140241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014099038, "dur":43854, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014142964, "dur":591, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746502014142905, "dur":1435, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014144341, "dur":13043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014157393, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1746502014157385, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1746502014157557, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014179296, "dur":39849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1746502014219209, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014219624, "dur":87409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746502014307092, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014323515, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014307434, "dur":16181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746502014323679, "dur":512, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014324259, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746502014324326, "dur":56514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746502014380899, "dur":6181699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014099230, "dur":45518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014144748, "dur":11733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014156482, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1746502014181959, "dur":13369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1746502014195485, "dur":15620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746502014211166, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014211370, "dur":14577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746502014226014, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014226433, "dur":290, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014226731, "dur":17661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746502014244439, "dur":612, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014245105, "dur":49625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746502014294786, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014295042, "dur":6948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746502014302070, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014302155, "dur":10482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746502014312694, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014312973, "dur":12417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746502014325452, "dur":1571, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014327053, "dur":14158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746502014341283, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014341655, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1746502014345530, "dur":10989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1746502014356592, "dur":482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014357098, "dur":7868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1746502014365016, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746502014365190, "dur":5080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1746502014370327, "dur":6192444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014099075, "dur":43841, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014142942, "dur":1884, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014142941, "dur":3497, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014146439, "dur":12525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014158965, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1746502014159226, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014168503, "dur":6247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1746502014174805, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1746502014174970, "dur":1992, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014182353, "dur":21748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1746502014204173, "dur":4707, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014208922, "dur":9281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014218271, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014218479, "dur":11499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014230093, "dur":2060, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014232182, "dur":4761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014236999, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014237170, "dur":44033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014281259, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014281475, "dur":8798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014290332, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014290695, "dur":6244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014297018, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014297327, "dur":7739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014305128, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014305325, "dur":7844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014313227, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014313570, "dur":14660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014328292, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014328601, "dur":13623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746502014342290, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014342441, "dur":4985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1746502014347485, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014347569, "dur":5500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1746502014353123, "dur":457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014353601, "dur":7441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level6.resS" }}
+,{ "pid":12345, "tid":9, "ts":1746502014361129, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014361332, "dur":5405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1746502014366798, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746502014366891, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1746502014371375, "dur":6191642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014099113, "dur":45558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014144672, "dur":14025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014158698, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1746502014158911, "dur":980, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014179344, "dur":44044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1746502014223467, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014223809, "dur":57359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746502014281226, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014281382, "dur":8568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746502014290012, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014290451, "dur":7011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746502014297529, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014297610, "dur":6946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746502014304628, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014304898, "dur":7552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746502014312512, "dur":441, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014312977, "dur":9220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746502014322252, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014322563, "dur":14790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746502014337408, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746502014337619, "dur":45290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746502014382970, "dur":6179919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014099318, "dur":45969, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014145288, "dur":13097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014158413, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1746502014158386, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1746502014158641, "dur":1324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014179541, "dur":77916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1746502014257556, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alain\\Downloads\\Unity\\MCS1653-FPS\\DriftRunner\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746502014257554, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746502014257684, "dur":12991, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014273101, "dur":11588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746502014284750, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014284889, "dur":9947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746502014294892, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014295048, "dur":8591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746502014303700, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014304019, "dur":8812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746502014312882, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014313379, "dur":22392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746502014335838, "dur":418, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746502014336280, "dur":44374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746502014380710, "dur":6181505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014099271, "dur":45491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014144762, "dur":11507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014156270, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1746502014156400, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014170348, "dur":15078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1746502014185489, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014185487, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014185997, "dur":5458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014192116, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014192696, "dur":13736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014206493, "dur":2613, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014209135, "dur":16773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014226007, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014226112, "dur":11459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014237633, "dur":1578, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014239276, "dur":43613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014282946, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014283411, "dur":9552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014293021, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014293142, "dur":8086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014301298, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014301395, "dur":9465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014310928, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014311227, "dur":14449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014325729, "dur":1293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014327051, "dur":13149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746502014340268, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014340416, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1746502014344100, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014344188, "dur":6105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1746502014350353, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014350426, "dur":12996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/resources.resource" }}
+,{ "pid":12345, "tid":12, "ts":1746502014363564, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014363751, "dur":6303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1746502014370105, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746502014370208, "dur":6018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1746502014376279, "dur":6186435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014099374, "dur":46167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014145541, "dur":12547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014158090, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1746502014158331, "dur":1694, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014175430, "dur":8883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1746502014184372, "dur":1132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1746502014185505, "dur":1001, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014215962, "dur":5163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1746502014221203, "dur":1230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014222474, "dur":12568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1746502014235093, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014235199, "dur":37348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1746502014272606, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014272719, "dur":11368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":13, "ts":1746502014284142, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014284311, "dur":8899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1746502014293300, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014293470, "dur":6837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1746502014300373, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014300491, "dur":7868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1746502014308409, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014308487, "dur":9483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1746502014318053, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014318231, "dur":15418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1746502014333703, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014334076, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014334168, "dur":11242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1746502014345525, "dur":12070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":13, "ts":1746502014357657, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014357875, "dur":6458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level5" }}
+,{ "pid":12345, "tid":13, "ts":1746502014364379, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014364508, "dur":4322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level2" }}
+,{ "pid":12345, "tid":13, "ts":1746502014368883, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1746502014368984, "dur":6285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1746502014375322, "dur":6187612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014099432, "dur":46128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014145560, "dur":11779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014157341, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1746502014157607, "dur":2590, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014184996, "dur":15897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1746502014200962, "dur":2568, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014203561, "dur":22734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014226344, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014226410, "dur":82, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014226513, "dur":16656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014243231, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014243356, "dur":31289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014274708, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014274823, "dur":132, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014274960, "dur":10568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014285606, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014285713, "dur":8524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014294301, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014294510, "dur":6527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014301103, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014301233, "dur":9359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014310657, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014310767, "dur":11115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014321944, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014322092, "dur":14886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014337131, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1746502014337255, "dur":42829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1746502014380163, "dur":6182004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014099480, "dur":46095, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014145575, "dur":10846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014156449, "dur":249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":15, "ts":1746502014156423, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1746502014156701, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014172457, "dur":5866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1746502014178378, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1746502014178530, "dur":414, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014190847, "dur":86905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1746502014277847, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014278005, "dur":13418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1746502014291489, "dur":410, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014291923, "dur":7740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1746502014299742, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014300067, "dur":7683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1746502014307820, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014307979, "dur":10862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1746502014318902, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014319141, "dur":14783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1746502014333978, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014334300, "dur":10162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1746502014344521, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014344634, "dur":8172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1746502014352929, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014353006, "dur":9713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1746502014362806, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014362882, "dur":5739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level3" }}
+,{ "pid":12345, "tid":15, "ts":1746502014368684, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1746502014368868, "dur":5885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1746502014374816, "dur":6188158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014099560, "dur":46030, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014145591, "dur":10468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014156078, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.55f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1746502014156063, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1746502014156398, "dur":4860, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014185168, "dur":18102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1746502014203384, "dur":838, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014204253, "dur":45877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1746502014250255, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014250598, "dur":29948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":16, "ts":1746502014280598, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014280897, "dur":14733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1746502014295689, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014296240, "dur":145, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014306514, "dur":216, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014296427, "dur":10322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1746502014306819, "dur":454, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014307423, "dur":22288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1746502014329783, "dur":1482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1746502014332308, "dur":52113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alain/Downloads/DriftRunner/DriftRunner_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1746502014384478, "dur":6178276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746502020572000, "dur":2133, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
